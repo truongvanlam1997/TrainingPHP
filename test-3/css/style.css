@@ -1,0 +1,197 @@
+.full-page{
+	max-width: 100%;
+	background-color: #f9f9f9;
+	overflow: auto;
+}
+.col-1-4{
+	float: left;
+	width: 25%;
+
+}
+.col-3-4{
+	float: left;
+	width: 75%;
+}
+.col-1-3{
+	float: left;
+	width: 33.33333%;
+}
+.col-2-3{
+	float: left;
+	width: 66.66666%;
+}
+.col-1-2{
+	float: left;
+	width: 50%;
+}
+.relocation{
+	max-width: 100%;
+	overflow: auto;
+}
+.lotus__relocation__image{
+	max-width: 100%;
+	background-image: url('../image/relocation.png');
+	height: 750px;
+}
+.lotus__background__red{
+	background-color: #962534;
+	max-width: 100%;
+	height: 750px;
+}
+.lotus__background__redlite{
+	
+	background-color: rgba(150, 37, 52, 0.8);
+	height: 750px;
+
+}
+
+.lotus__background__whitelite{
+	background-color: rgba(251, 253, 253, 0.5);
+	height: 750px;
+
+}
+
+.lotus__content__white{
+	color: white;
+	margin-top: 40%;
+}
+.lotus__content{
+	color: black;
+	margin-top: 40%;
+}
+.lotus__background__right{
+	float: right;
+	text-align: left;
+}
+ul.lotus__link1 li a{
+	font-size: 18px;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+
+}
+ul.lotus__link1 li a:hover{
+	font-size: 20px;
+	background-color: #39abe1;
+}
+ul.lotus__link2 li a:hover{
+	font-size: 18px;
+	background-color: #39abe1;
+}
+ul.lotus__link1:hover ul.lotus__link2{
+	display: block;
+}
+ul.lotus__link2{
+	display: none;
+}
+
+ul.lotus__link2 li a {
+	
+	font-size: 16px;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+
+}
+.lotus__link1 li, .lotus__link2 li{
+list-style: none;
+}
+.lotus__content__white h1{
+	font-size: 55px;
+}
+.lotus__background__white{
+	height: 750px;
+	background-color:white;
+}
+
+.lotus{
+	
+	height: 750px;
+}
+.lotus__lotus__image{
+	background-image: url('../image/lotus.png');
+	width: 75%;
+	height: 750px;
+
+}
+.lotus__button__red button[type=submit]{
+	margin-top: 40px;
+	background-color: #962534;
+	width: 180px;
+	height: 30px;
+	color: white;
+	border: none;
+	font-weight: bold;
+
+}
+.lotus__button__white button[type=submit]{
+	margin-top: 40px;
+	color: #962534;
+	width: 180px;
+	height: 30px;
+	background-color: white;
+	border: none;
+	font-weight: bold;
+
+}
+
+
+
+.immigration{
+	height: 750px;
+	overflow: auto;
+}
+.lotus__immigration__image{
+	background-image: url('../image/immigration.png');
+	height: 750px;
+}
+.lotus__education__image{
+	background-image: url('../image/educaiton.png');
+	height: 750px;
+}
+.lotus__acomodation__image{
+	background-image: url('../image/acomodation.png');
+	height: 750px;
+}
+.lotus__orientation__image{
+	background-image: url('../image/orientation.png');
+	height: 750px;
+}
+.lotus__corparate__image{
+	background-image: url('../image/corporate.png');
+	height: 750px;
+}
+.lotus__testimonials__image{
+	background-image: url('../image/testimonials.png');
+	height: 750px;
+
+}
+
+.footer{
+	
+	background-color: #202020;
+}
+
+
+.lotus-bot{
+	background-color: #333333;
+	max-width: 100%;
+	
+}
+.footer a {
+	
+	display: inline-block;
+	margin: 20px 100px;
+	
+}
+.footer .lotus__background__right b{
+	text-align: right;
+}
+
+.lotus--bot--content{
+	margin-top: 40px;
+}
+.bot--content{
+	padding: 5px 20px;
+	width: calc(33.333333% - 40px) !important;
+}
