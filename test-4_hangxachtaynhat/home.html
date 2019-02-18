@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+	
 </head>
 <body>
 	<div class="page">
@@ -51,14 +53,15 @@
 
 				<div class="col--right col--margin-right">
 					<div class="page__header-card col--right">
-						<button class="btn btn--card">-  2 món</button>
+						<button type="submit" class="btn btn--card">-  2 món</button>
 					</div>
-					<div class="page__header-search col--right">
-						<span class="icon"><i class="fa fa-search"></i></span>
-						<input type="search" id="search" placeholder="Tìm Kiếm..." />
+					<div class="page__header-search col--right" >
+						<input type="search" class="btn btn--search" placeholder="Tìm Kiếm..." />
+						
 					</div>
+					
 					<div class="page__header-dropdown col--right">
-						<select name="dropdown-select">
+						<select class="dropdown-select">
 							<option value="1">Tất cả danh mục</option>
 							<option value="2">Chọn 2</option>
 						</select>	
@@ -83,7 +86,9 @@
 					<h2>Mặt Nạ HA Cosme Nhật Bản <br>
 					dưỡng ẩm siêu cấp ẩm</h2>
 					<p>Chỉ 330.000 VNĐ</p>
-					<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
+					<div class="page__header-addcard">
+						<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
+					</div>
 				</div>
 				
 			</div>
@@ -136,7 +141,9 @@
 					<div class="section-slide__product-content col--vertical-center">
 						<p>Mặt nạ chống nhăn vùng mắt KOSE</p>
 						<h4>300,000 VNĐ</h4>
-						<span><button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button></span>
+						<div class="page__header-addcard margin--auto">
+							<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
+						</div>
 					</div>
 					
 				</div>
@@ -145,7 +152,9 @@
 					<div class="section-slide__product-content col--vertical-center">
 						<p>Trà giảm cân NIGHT DIET TEA</p>
 						<h4>300,000 VNĐ</h4>
-						<span><button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button></span>
+						<div class="page__header-addcard margin--auto">
+							<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
+						</div>
 					</div>
 					
 				</div>
@@ -154,7 +163,9 @@
 					<div class="section-slide__product-content col--vertical-center col--text-midle">
 						<p>Kem dưỡng mắt MEISHOKU</p>
 						<h4>300,000 VNĐ</h4>
-						<span><button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button></span>
+						<div class="page__header-addcard margin--auto">
+							<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
+						</div>
 					</div>
 					
 				</div>
@@ -163,7 +174,9 @@
 					<div class="section-slide__product-content col--vertical-center">
 						<p>Gel tẩy da chết BOTANICAL</p>
 						<h4>300,000 VNĐ</h4>
-						<span><button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button></span>
+						<div class="page__header-addcard margin--auto">
+							<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
+						</div>
 					</div>
 					
 				</div>
@@ -231,6 +244,66 @@
 			<div class="section col--text-midle">
 				<a href="">Xem tất cả bài viết</a>
 				
+			</div>
+
+			<div class="page__footter">
+				<div class="page__footter-section">
+					<div style="margin-top: 20px" class="col-1-3 col--left"> 
+						<div class="col--left">
+							<img src="./image/icon_fb.png" alt="fb">
+						</div>
+						<div class="col--margin-left col--left">
+							<img src="./image/icon_printers.png" alt="pt">
+						</div>
+						<div class="col--margin-left col--left">
+							<img src="./image/icon_instargran.png" alt="in">
+						</div>
+					</div>
+					<div class="col-1-3 col--left">
+						<div class="margin--auto col--text-midle">
+							<img src="image/icon_logo.png" alt="loho">
+						</div>
+					</div>
+					<div style="margin-top: 20px" class="col-1-3 col--left"> 
+						<div class="col--right">
+							<img src="./image/icon_paypal.png" alt="fb">
+						</div>
+						<div class="col--margin-right col--right">
+							<img src="./image/icon_mastercard.png" alt="pt">
+						</div>
+						<div class="col--margin-right col--right">
+							<img src="./image/icon_visa.png" alt="in">
+						</div>
+					</div>
+				</div>
+				
+				<div class="page__footter-section">
+					<div class="col-1-3 col--left col--text-midle ">
+						<img src="image/icon_phone-footter.png" alt="phone">
+						<div class="col--text-midle col--padding">
+							<h4>Điện Thoại</h4>
+							<p>0122 . 222 . 4002</p>
+						</div>
+					</div>	
+					<div class="col-1-3 col--left  col--text-midle">
+						<img src="image/icon_local-footter.png" alt="nlocal">
+						<div  class=" col--text-midle col--padding">
+							<h4>Địa Chỉ</h4>
+							<p>29/29 Đoàn Thị Điểm, Phường 1 Quận Phú Nhuận, TP.HCM</p>
+						</div>
+					</div>
+					<div class="col-1-3 col--left col--text-midle ">
+						<img src="image/icon_email-footer.png" alt="email">
+						<div  class="col--text-midle col--padding ">
+							<h4>Email</h4>
+							<p>shopthao@sample.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="page__footter-section col--text-midle">
+					<strong>© shophangnhat 2018 All Rights Reserved</strong>
+				</div>
+
 			</div>
 
 
