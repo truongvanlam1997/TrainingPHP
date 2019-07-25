@@ -13,90 +13,93 @@
 	<div class="page">
 		<div class="page__header">
 			<div class="page__header-bar">
-				<div class="col-1-2 col--left">
-					<span class="col--margin-left ">
-						<img src="image/icon_phone1.svg" alt="phone">
-						<span>0122.222.4002</span>
-					</span>
-					<span class="col--margin-left">
-						<img src="image/icon_local1.svg" alt="local">
-						<span>29/29 Đoàn Thị Điểm, P.1, Q, Phú Nhuận, TP.HCM</span>
-					</span>
-					
+				<div class="col-1-2 ">
+					<div class="col--left col--vertical-center--row">
+						<div class=" col--vertical-midle page__header-bar--content">
+							<img src="image/icon_phone1.svg" alt="phone">
+							<span>0122.222.4002</span>
+						</div>
+						<div class="col--vertical-midle page__header-bar--content page__header-bar--content-distance">
+							<img src="image/icon_local1.svg" alt="local">
+							<span>29/29 Đoàn Thị Điểm, P.1, Q, Phú Nhuận, TP.HCM</span>
+						</div>
+
+					</div>
 				</div>
 
-				<div class="col-1-2 col--right ">
+				<div class="col-1-2 col--right  col--text-right page__header-bar--link ">
+					<a  href="" class="btn btn--sign " >Đăng Ký</a>
 					
-					<button class="btn btn--sign col--right col--margin-right" type="submit">Đăng Ký</button>
-					
-
-
-					<button class="btn btn--sign col--right col--margin-right" type="submit">Đăng Nhập</button>
-
+					<a href="" class="btn btn--sign " >Đăng Nhập</a>
 
 				</div>
 				
 			</div>
 
-			<div class="page__header-bar">
-				<div class="col--left col-1-2 col--margin-left ">
-					<div  class="col--left">
-						<img src="image/icon_logo.svg" alt="logo">
-					</div>
-					
-					<span class=" content__logo">
+			<div class="page__header-bar ">
+				<div class="col-1-3 col--left  col--vertical-center--row ">				
+					<img src="image/icon_logo.svg" alt="logo">
+					<span class="page__header-bar--logo-content">
 						<h2>Shop Hàng Nhật </h2>
 						<strong>Chuyên Hàng Nội Địa Nhật Bản</strong>
 					</span>
 
 				</div>
 
-				<div class="col--right col--margin-right">
-					<div class="page__header-card col--right">
-						<button type="submit" class="btn btn--card">-  2 món</button>
-					</div>
-					<div class="page__header-search col--right" >
-						<input type="search" class="btn btn--search" placeholder="Tìm Kiếm..." />
-						
-					</div>
-					
-					<div class="page__header-dropdown col--right">
-						<select class="dropdown-select">
+				
+				<form class="col-2-3 page__header-bar--form col--right" action="home_submit" method="get">
+					<div class="page__header-dropdown ">
+						<select class="dropdown-select col-1-3 page__header-dropdown col--left">
 							<option value="1"><p>Tất cả danh mục</p></option>
 							<option value="2"><p>Chọn 2</p></option>
 						</select>	
 					</div>
-				</div>		
-			</div>
+
+					<div class="col-1-2 page__header-search col--left" >
+						<div class="page__header-search--icon">
+							<input type="search" class="btn btn--search" placeholder="Tìm Kiếm..." />
+						</div>
+					</div>
+
+					<div class="col-1-6 page__header-card col--left ">
+						<button type="submit" class=" btn btn--card ">-  2 món</button>
+
+					</div>
+
+				</form>
+			</div>	
+
+			<div class="page__menubar">
+				<ul class="page__menubar-link">
+					<li><a href="">Trang Chủ</a></li>
+					<li><a href="">Giới Thiệu</a></li>
+					<li><a href="">Cửa Hàng</a></li>
+					<li><a href="">Tư Vấn</a></li>
+				</ul>
+			</div>	
+
 		</div>
 
-		<div class="page__menubar">
-			<ul style="height: 70px !important;" class="page__menubar-link col--margin-left">
-				<li><a href="">Trang Chủ</a></li>
-				<li><a href="">Giới Thiệu</a></li>
-				<li><a href="">Cửa Hàng</a></li>
-				<li><a href="">Tư Vấn</a></li>
-			</ul>
-		</div>
 
 		<div class="page__content">
-			<div class="section-slide__intro">
-				<div class="col-1-2 col--vertical-center col--padding-content">
-					<p>Sản Phẩm Mới</p>
-					<h2>Mặt Nạ HA Cosme Nhật Bản <br>
-					dưỡng ẩm siêu cấp ẩm</h2>
-					<p>Chỉ 330.000 VNĐ</p>
-					<div class="page__header-addcard">
-						<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
-					</div>
-				</div>
+			<div class="section-slide__intro col--vertical-center col--padding-content">
 				
+				<p>Sản Phẩm Mới</p>
+				<h2>Mặt Nạ HA Cosme Nhật Bản <br>
+				dưỡng ẩm siêu cấp ẩm</h2>
+				<p>Chỉ 330.000 VNĐ</p>
+				<div class="page__header-addcard">
+					<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
+
+				</div>
+
+
 			</div>
 
 			<div class="section col--padding-content">
 				<div class="col-1-3 col--left ">
 					<img src="image/icoin_xe.png" alt="vanchuyen">
-					<div style="display: inline-block" class="col--vertical-center col--padding content__service">
+					<div style="display: inline-block" class="col--vertical-center col--padding content--service">
 						<h4>Miến Phí Giao Hàng</h4>
 						<p>Miên phí giao hàng cho <br>
 						khách hàng khu vực nội TP.HCM</p>
@@ -104,7 +107,7 @@
 				</div>	
 				<div class="col-1-3 col--left ">
 					<img src="image/icoin_nguonhang.png" alt="nguonhang">
-					<div style="display: inline-block" class=" col--vertical-center col--padding content__service">
+					<div style="display: inline-block" class=" col--vertical-center col--padding content--service">
 						<h4>Nguồn Hàng Đảm Bảo</h4>
 						<p>Nguồn hàng được nhập 100%  <br>
 						từ Nhật Bản và có xuất sứ rõ ràng</p>
@@ -112,7 +115,7 @@
 				</div>
 				<div class="col-1-3 col--left ">
 					<img src="image/icoin_hotro.png" alt="hotro">
-					<div style="display: inline-block" class="col--vertical-center col--padding content__service ">
+					<div style="display: inline-block" class="col--vertical-center col--padding content--service ">
 						<h4>Hổ Trợ Nhanh Chóng</h4>
 						<p>Mọi thắc mắc liên quan sẽ được <br>
 						chúng tôi hỗ trợ nhanh nhất</p>
@@ -122,9 +125,9 @@
 
 
 
-			<div class="section col--text-midle col--vertical-center">
+			<div class="section content--products col--text-midle col--vertical-center">
 				<h2 >Sản Phẩm Nổi Bật</h2>
-				<h6>Được tin dùng nhiều</h6>
+				<p>Được tin dùng nhiều</p>
 				<span>
 					<button class="btn btn--content">Đời Sống</button>
 					<button class="btn btn--content">Làm Đẹp</button>
@@ -134,86 +137,86 @@
 			</div>
 
 
-
-			<div class="section-slide__product">
-				<div class="col--border-width--col-1-4 col-1-4 col--border col--left">
-					<div style="background-image:url('./image/mat-na-mat-kose-clear-turn-eye-zone-mask.png') " class="section-slide__product-image"></div>
-					<div class="section-slide__product-content col--vertical-center">
-						<p>Mặt nạ chống nhăn vùng mắt KOSE</p>
-						<h4>300,000 VNĐ</h4>
-						<div class="page__header-addcard margin--auto">
-							<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
-						</div>
-					</div>
-					
-				</div>
-				<div class="col--border-width--col-1-4 col-1-4 col--border col--left">
-					<div style="background-image:url('./image/orihiro-night-diet-tea-2g-x-20-packs-nochnoj-chaj-dlya-pokhudeniya-20-paketikov.png') " class="section-slide__product-image"></div>
-					<div class="section-slide__product-content col--vertical-center">
-						<p>Trà giảm cân NIGHT DIET TEA</p>
-						<h4>300,000 VNĐ</h4>
-						<div class="page__header-addcard margin--auto">
-							<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
-						</div>
-					</div>
-					
-				</div>
-				<div class="col--border-width--col-1-4 col-1-4 col--border col--left">
-					<div style="background-image:url('./image/kem-duong-mat.png') " class="section-slide__product-image"></div>
-					<div class="section-slide__product-content col--vertical-center col--text-midle">
-						<p>Kem dưỡng mắt MEISHOKU</p>
-						<h4>300,000 VNĐ</h4>
-						<div class="page__header-addcard margin--auto">
-							<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
-						</div>
-					</div>
-					
-				</div>
-				<div style="" class="col--border-width--col-1-4 col-1-4 col--border col--left">
-					<div style="background-image:url('./image/image_geltaydachet.png') " class="section-slide__product-image"></div>
-					<div class="section-slide__product-content col--vertical-center">
-						<p>Gel tẩy da chết BOTANICAL</p>
-						<h4>300,000 VNĐ</h4>
-						<div class="page__header-addcard margin--auto">
-							<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
-						</div>
-					</div>
-					
-				</div>
-
-			</div>
-
-
-			<div class="section col--text-midle">
-				<a href="">Xem tất cả sản phẩm</a>
-				
-			</div>
-			
 			<div class="section">
-				<div class="section col--text-midle">
-					<h2>Nhận Xét Của Khách Hàng</h2>
-					<h6>Từ những trải nghiệm thực tế</h6>
+				<div class="section-slide__product">
+					<div class="col--border-width--col-1-4 col-1-4 col--border col--left">
+						<div style="background-image:url('./image/mat-na-mat-kose-clear-turn-eye-zone-mask.png') " class="section-slide__product-image"></div>
+						<div class="section-slide__product-content col--vertical-center">
+							<h4>Mặt nạ chống nhăn vùng mắt  </br> KOSE</h4>
+							<p>300,000 VNĐ</p>
+							<div class="page__header-addcard margin--auto">
+								<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
+							</div>
+						</div>
+
+					</div>
+					<div class="col--border-width--col-1-4 col-1-4 col--border col--left">
+						<div style="background-image:url('./image/orihiro-night-diet-tea-2g-x-20-packs-nochnoj-chaj-dlya-pokhudeniya-20-paketikov.png') " class="section-slide__product-image"></div>
+						<div class="section-slide__product-content col--vertical-center">
+							<h4>Trà giảm cân </br>
+							NIGHT DIET TEA</h4>
+							<p>300,000 VNĐ</p>
+							<div class="page__header-addcard margin--auto">
+								<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
+							</div>
+						</div>
+
+					</div>
+					<div class="col--border-width--col-1-4 col-1-4 col--border col--left">
+						<div style="background-image:url('./image/kem-duong-mat.png') " class="section-slide__product-image"></div>
+						<div class="section-slide__product-content col--vertical-center col--text-midle">
+							<h4>Kem dưỡng mắt  </br> MEISHOKU</h4>
+							<p>300,000 VNĐ</p>
+							<div class="page__header-addcard margin--auto">
+								<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
+							</div>
+						</div>
+
+					</div>
+					<div style="" class="col--border-width--col-1-4 col-1-4 col--border col--left">
+						<div style="background-image:url('./image/image_geltaydachet.png') " class="section-slide__product-image"></div>
+						<div class="section-slide__product-content col--vertical-center">
+							<h4>Gel tẩy da chết  </br> BOTANICAL</h4>
+							<p>300,000 VNĐ</p>
+							<div class="page__header-addcard margin--auto">
+								<button class="btn btn--addcard" type="submit">Thêm vào giỏ hàng</button>
+							</div>
+						</div>
+
+					</div>
 
 				</div>
-				<div class="section col--text-midle">
+				<div class="section-slide__product-seeall col--text-midle">
+					<a href="">Xem tất cả sản phẩm</a>
+				</div>
+			</div>
+
+			<div class="section">
+
+				<div class="content--products col--text-midle">
+					<h2>Nhận Xét Của Khách Hàng</h2>
+					<p>Từ những trải nghiệm thực tế</p>
+
+				</div>
+				<div class="section  content--products col--text-midle">
 					<img src="image/image_comment.png" alt="commment">
-					<h4>Tiffany Griffin</h4>
+					<h3>Tiffany Griffin</h3>
 				</div>
 				<div class="section content--comment col--text-midle">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolore libero cupiditate similique maiores excepturi voluptatem eveniet velit error temporibus doloribus sequi sunt dolores, modi sint, dicta porro quae illo inventore culpa, vitae nam quasi. Veritatis animi quidem hic ab accusantium, quaerat voluptate, autem eius natus eos porro illum repudiandae.</p>
 				</div>
-				
+
 			</div>
 
 
 			<div class="section">
-				<div class="section col--text-midle">
+				<div class=" content--products col--text-midle">
 					<h2>Bài Viết Mới</h2>
-					<h6>Luôn cập nhật thường xuyên</h6>
+					<p>Luôn cập nhật thường xuyên</p>
 				</div>
 
 				<div class="section-slide"> 
-					<div  style="background-image: url('./image/image_kiko-mizuhara_glamour_9apr18_gettyimages-917886426_hero.png'); padding-top: 470px;border-radius: 10px;" class="section-slide col-1-2 col--left">
+					<div  style="background-image: url('./image/image_kiko-mizuhara_glamour_9apr18_gettyimages-917886426_hero.png'); padding-top: 470px;border-radius: 10px;" class="section-slide--image col-1-2 col--left">
 						<div class="col--text-bottom col--padding content__slide">
 							<p>Your guide to all things J-Beauty and why it will totally transform your skin</p>
 							<strong>Thứ 5, ngày 22, 2018</strong>

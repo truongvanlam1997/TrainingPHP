@@ -1,0 +1,620 @@
+body{
+	max-height: auto;
+	max-width: auto;
+	background-color: #545659;
+	font-family: 'Philosopher', sans-serif;
+	
+}
+#container{
+	margin : auto;
+	max-width: 1280px;
+	background-color:#545659 ;
+	position: absolute;
+	font-family:Philosopher;
+	text-align: center;
+	
+}
+#container:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.home{
+	background-image: url("../image/home.png");
+	width: 100%;
+	height: 600px;
+	color: white;
+	
+
+}
+.menubar{
+	width: 100%;
+	
+	
+}
+.menubar:after{
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+div.menubar h1{
+	font-size: 3.5em;
+	font-size: 36px;
+	font-family: Philosopher;
+	float: left;
+	width: 33.3334%;
+	
+}
+nav.mid a{
+	
+	font-size: 2.5em;
+	
+	font-size: 18px;
+	font-family: Philosopher;
+	text-decoration: none;
+	color: white;
+}
+nav.mid a:hover{
+	font-size: 22px;
+}
+nav.mid a:nth-child(2n){
+	margin: 0 5px;
+
+}
+nav.mid {
+	border: none;
+	margin: 40px auto;
+	float: left;
+	width: 33.3334%;
+}
+nav.right{
+	margin: 30px auto;
+	float: left;
+	width: 28.3334%;
+	outline:none;
+	border: none;
+	
+} 
+div.menu-hide{
+	float: left;
+	margin: 30px auto;
+	width: 5%;
+	display: none;
+
+	
+}
+div.menu-hide img {
+	margin-right: 70%;
+
+}
+/*  Responsive Home */
+
+.mid-hide a{
+	
+	font-size: 2.5em;
+	width: 100%;
+	font-size: 18px;
+	font-family: Philosopher;
+	text-decoration: none;
+	color: white;
+}
+div.menu-hide-list{
+		
+	}
+
+
+@media only screen and (max-width: 568px){
+	.mid{
+		display: none;
+	}
+	.right{
+		display: none;
+	}
+		div.menu-hide a:hover div.mid-hide a{
+			background-color: red !important;
+			color: hotpink !important;
+		
+	}
+	div.menu-hide{
+		display: block;
+		float: right;
+		padding-right: 50px;
+		margin: auto;
+		position: fixed;
+		top: 10px;
+		right: 2px;
+	}
+	.menu-hide img{
+		margin-right: 50px;
+	}
+	
+	nav.mid-hide{
+		padding-right: 50px;
+	}
+	.bt2{
+		font-weight: bold;
+		float: left;
+		width: 100px;
+		height: 40px;
+		padding-right: 50px;
+		border-radius: 15px;
+	}
+
+	.about-left{
+		width: calc(100% -40px) !important;
+
+	}
+	.about-right{
+		width: calc(100% -40px) !important;
+
+	}
+
+
+	
+
+}
+.bt1{
+	font-weight: bold;
+	float: left;
+	width: calc(50% - 40px);
+	height: 40px;
+	margin-left: 20px;
+	border-radius: 15px;
+}
+
+button.bt1:hover{
+	width: 80%;
+}
+.content {
+	margin-top: 145px;
+	
+}
+div.content h1{
+	font-weight: bold;
+	font-size: 40px;
+	font-family: Philosopher;
+	margin-bottom: 5px;
+}
+div.content img{
+	margin-bottom: 5px;
+}
+div.content nav{
+
+	width: 100%;
+
+	outline:none;
+	border: none;
+}
+
+
+/* ABOUT */
+
+.about{
+	
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	background-color: white;
+	padding-top: 30px;
+	
+
+}
+.about:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.about-us{
+	
+	height: auto;
+
+}
+div.about-us a{
+	border-bottom: 2px solid black;
+	font-family: philosopher;
+	font-size: 45px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+
+	
+}
+.about-left{
+	margin-top: 50px;
+	margin-left: 20px;
+	text-align: left;
+	font-family: Opensans;
+	float: left;
+	width: calc(50% - 40px);
+	height: 500px;
+	background-color: width ;
+}
+div.about-left li{
+	font-size: 18px;
+
+	list-style: none;
+	margin : 15px 0;
+}
+
+.about-right{
+
+	float: left;
+	width: 50%;
+	height: 500px;
+	background-color: width;
+}
+.about-right img{
+	margin: 30px 10px 10px 10px;
+	width: calc(100% - 40px) ;
+	height: auto;
+}
+/* MENU*/
+.menu{
+	padding-top: 30px;
+	width: 100%;
+	height: 680px;
+	background-image: url('../image/etterem2.png');
+	display: inline-block;
+	
+}
+div.menu1 a{
+	border-bottom: 2px solid black;
+	text-decoration: none;
+	font-family: philosopher;
+	font-size: 45px;
+	font-weight: bold;
+	color: black;
+
+}
+div.menu1{
+
+
+}
+.menu-left{
+	background-color: white;
+	margin: 50px 40px 0px 100px;
+	float: left;
+
+	width: calc(50% - 150px);
+	max-height: 900px;
+	text-align: left;
+	
+}
+
+.image{
+	margin: 20px 20px;
+	float: left;
+	width: calc(25% - 40px);
+	height: 33.3334%;
+	
+}
+.image img{
+	
+	float: left;
+	width: auto;
+	height: auto;
+	
+	
+}
+
+div.image-text h3{
+	
+	margin: 20px 0px;
+	float: left;
+	width: 75%;
+	height: 33.3334%;
+
+}
+
+div.text b{
+
+	float: left;
+	width: 100%;
+	margin-left: 10px;
+
+}
+div.image-text{
+	
+}
+.image-text{
+	content: '';
+	display: block;
+	clear: both;
+	
+}
+
+.menu-right{
+	background-color: white;
+	margin-top: 50px;
+	margin: 50px 100px 0 50px;
+	width: calc(50% - 150px);
+	max-height: 900px;
+	float: left;
+	text-align: left;
+
+}
+/* Restaurant */
+.res{
+	max-width: 100%;
+	height: 700px;
+	padding:  25px 50px 0px 50px;
+	background-color: white;
+	
+}
+div.res-menu{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+div.res-menu a{
+	
+	border-bottom: 2px solid black;
+	font-family: philosopher;
+	font-size: 45px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	margin-bottom: 10px;
+
+
+}
+div.res-menu b{
+	margin-top: 20px;
+	text-align: center;
+	display: block;
+}
+.res-content{
+	width: 100%;
+	margin-top: 40px;
+	margin-left: 40px;
+	text-align: center;
+}
+.res-content img{
+	float: left;
+	width: calc(33.333333334% - 60px);
+	padding: 10px;
+}
+/*  Reservation*/
+
+
+.reser{
+	width: 100%;
+	height: 661px;
+	background-image: url('../image/veser.png');
+	display: block;
+	
+	overflow: auto;
+	
+
+}
+div.reser-menu{
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+div.reser-menu a{
+	
+	border-bottom: 2px solid white;
+	font-family: philosopher;
+	font-size: 45px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+
+}
+.reser-content{
+	margin: auto;
+	text-align: center;
+	width: 35.546875%;
+	height: auto;
+	background-color: #555555;
+	border: 1px solid #545659;
+	opacity: 0.8;
+	overflow: auto;
+
+}
+
+input.same {
+	
+	margin: 40px 30px 0 30px;
+	box-sizing: border-box;
+	float: left;
+	min-width: 100px;
+	width: calc(50% - 60px);
+	height: 40px;
+	
+
+}
+
+.same2 {
+	float: left;
+	min-width: 100px;
+	width: calc(50% - 60px);
+	box-sizing: border-box;
+	margin: 30px 30px 0 30px;
+	height: 40px;
+}
+.same3{
+	float: left;
+	min-width: 100px;
+	width: calc(50% - 60px);
+	box-sizing: border-box;
+	margin: 30px 30px 0 30px;
+	height: 40px;
+}
+.same4{
+	float: left;
+	margin: 30px 30px 0 30px;
+	width: calc(100% - 60px);
+	height: 40px
+}
+.same5{
+	float: left;
+	margin: 30px 30px 30px 30px;
+	width: calc(100% - 60px);
+	height: 40px
+}
+
+/* FIND US */
+.find{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+
+
+}
+.find-us{
+	margin-bottom: 30px;
+}
+.find-us a{
+	border-bottom: 2px solid black;
+	font-family: philosopher;
+	font-size: 45px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+
+}
+.find-content{
+
+	margin: auto;
+
+	max-width:960px;
+	height: auto;
+	overflow: auto;
+}
+.content-left{
+	float: left;
+	width: 50%;
+	text-align: left;
+
+
+}
+.find-map{
+	float: left;
+	width: calc(50% - 20px);
+	padding: 10px;
+
+}
+.contact-info h3{
+	margin-bottom: 10px;
+}
+.contact-address{
+	overflow: auto;
+
+}
+.contact-address img{
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+.contact-address b{
+	margin-left: 10px;
+	float: left;
+	width: 90%;
+
+
+}
+.contact-address b li{
+	list-style: none;
+
+
+}
+.contact-phone{
+	margin-top: 10px;
+	overflow: auto;
+}
+.contact-phone img{
+	float: left;
+	width: auto;
+	height: auto;
+}
+.contact-phone b{
+	margin-left: 10px;
+	float: left;
+	max-width: 70%;
+
+}
+.contact-email{
+	margin-top: 10px;
+	overflow: auto;
+}
+.contact-email img{
+	float: left;
+	width: auto;
+	height: auto;
+}
+.contact-email b{
+	margin-left: 10px;
+	float: left;
+	max-width: 70%;
+
+}
+.contact-site{
+	margin-top: 10px;
+	overflow: auto;
+}
+.contact-site img{
+	float: left;
+	width: auto;
+	height: auto;
+}
+.contact-site b{
+	margin-left: 10px;
+	float: left;
+	max-width: 70%;
+
+}
+.find-copyright{
+	
+
+	border-top: 1px dashed black;
+	text-align: left;
+	padding-left: 165px;
+	margin-bottom: 10px;
+
+}
+.find-copyright:after{
+	content: "";
+	display: block;
+	clear: both;
+
+}
+span.link a{
+	font-size: 1.5em;
+	width: 100%;
+	font-size: 15px;
+	font-family: Philosopher;
+	text-decoration: none;
+	color: white;
+}
+.copyright-left {
+	float: left;
+	color: white;
+	width: 50%;
+	display: inline;
+}
+.copyright-right {
+	padding-right:165px; 
+	width: calc(50% - 165px);
+	text-align: right;
+	float: right
+}
+ /*.gird{
+	margin-left:75px;
+ 	width: 1240px;
+ 	height: calc(3869px - 50px);
+ 	background-image: url('../image/grid.png');
+ 	 background-repeat: repeat-y;
+ 	
+ 	opacity: 0.8;
+ 	z-index: 10;
+ 	
+	position: absolute;
+ }
+
+*/
